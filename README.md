@@ -108,7 +108,3 @@ Edit the script to enable/disable specific boards (B1–B6). Extracted boards ar
 ## BOM Generation
 
 Open the project in KiCad and run the **Interactive HTML BOM** plugin. Output lands in `bom/ibom.html` per `ibom.config.ini`. Key BOM fields: Value, Footprint, MPN, Manufacturer, Datasheet, Category.
-
-## Related
-
-The carrier board is designed to work alongside the [teensy_mic_sensor firmware](../../../firmware/) — a PlatformIO project implementing real-time beat and tempo tracking on the Teensy 4.x using the ICS-43434 microphone over I2S.
